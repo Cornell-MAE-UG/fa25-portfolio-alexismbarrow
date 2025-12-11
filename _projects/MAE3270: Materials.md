@@ -7,6 +7,7 @@ image: /assets/images/mae3270-cad.png
 ---
 
 
+
 For the class MAE 3270, Mechanics of Materials, we were tasked to solve an engineering problem: building a torque wrench that could undergo a certain set of conditions, which were as follows:
 
 - Withstand a torque of 600 in-lbf for 10^6 cycles. 
