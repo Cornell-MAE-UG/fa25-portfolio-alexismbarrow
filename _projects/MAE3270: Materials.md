@@ -13,9 +13,9 @@ For the class MAE 3270, Mechanics of Materials, we were tasked to solve an engin
 - Withstand a torque of 600 in-lbf for 10^6 cycles. 
 - At least 1 mV/V output at the rated torque.
 - A safety factor of at least 4 for yield or brittle failure.
-- A safety facor of at least 2 for crack growth from an assumed crack depth of 0.04 in.
+- A safety factor of at least 2 for crack growth from an assumed crack depth of 0.04 in.
 - A fatigue stress safety factor of at least 1.5
-- Be made from a steel, aluminum, or titanum alloy.
+- Be made from a steel, aluminum, or titanium alloy.
 - Have a driver with dimensions 0.375in x 0.375in x 0.5in
 
 From this, we were to firstly use hand calculations to find a suitable design. We were to, after this, build our model in CAD, and use FEA to validate our results.
@@ -57,7 +57,7 @@ Normal strain contours from FEM:
 
 Contour plot of maximum principal stress from FEM:
 
-![question 5]({{ "assets/images/q5-1.png" | relative_url }}){: class="profile-image"}
+![question 5]({{ "assets/images/q5-1.png" | relative_url }}){: .project-img}
 ![question 5-2]({{ "assets/images/q5-2.png" | relative_url }}){: .project-img}
 
 
@@ -66,17 +66,12 @@ Contour plot of maximum principal stress from FEM:
 
 
 Maximum normal stress:
+According to the FEq6 calculations, the maximum normal stress was 90010 psi, as pictured below. It occurs at the interface between the fileted portion of the driver and the handle body. The reasoning behind this specific location, instead of any of the other 3 corners of the fileted part of the driver, is due to the direction of the applied load- it is counterclockwise, meaning this counteractive torque from what the driver is engaged with.
 
 ![question 6-1]({{ "assets/images/q6-1.png" | relative_url }}){: .project-img"}
 ![question 6-2]({{ "assets/images/q6-2.png" | relative_url }}){: .project-img}
 
 
-
-
----
-
-
-The load point deflection, pictured below, is 0.2267 for the faces of the driver. They are defined as fixed supports due to the nature of the purpose of the torque wrench. Assuming it is not being twisted beyond its capacity (which would incur a frictionsl contact support), none of the faces of the driver will move. This principle causes a case in which the load is not distributed down into the driver, but rather concentrated in the end of the handle, where the load is applied. 
 
 
 ---
@@ -100,8 +95,8 @@ The strain gauges are located approximately 1 inch from the center of the driver
 
 
 Torque wrench sensitivity in mV/V using strains from the FEM analysis:
-![question 7-2]({{ "assets/images/q7-2.png" | relative_url }}){: class="profile-image"}
-![question 7analysis]({{ "assets/images/q7analysis.png" | relative_url }}){: class="profile-image"}
+![question 7-2]({{ "assets/images/q7-2.png" | relative_url }}){: .project-img}
+![question 7analysis]({{ "assets/images/q7analysis.png" | relative_url }}){: .project-img}
 
 
 ---
@@ -109,5 +104,5 @@ Torque wrench sensitivity in mV/V using strains from the FEM analysis:
 
 
 Strain Gauge Selected: SGD-2/350-LY11 Linear Strain Gauge from DwyerOmega
-![StrainGauge Pic]({{ "assets/images/StrainGaugePic.png" | relative_url }}){: class="profile-image"}
+![StrainGauge Pic]({{ "assets/images/StrainGaugePic.png" | relative_url }}){: .project-img}
 Dimensions: 7.6mm (0.3in) x 5.8mm (0.23in)
