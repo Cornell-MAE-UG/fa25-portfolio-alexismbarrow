@@ -12,4 +12,10 @@ Enclosed below is a PDF the final project report.
 
 <a href="{{ "/assets/SystemsFinalProject.pdf/" | relative_url }}">SystemsFinalProject.pdf</a>.
 
-test
+
+
+[Download the full report (PDF)](/assets/pdfs/myfile.pdf)
+[📄 View PDF](/assets/pdfs/myfile.pdf){: .btn }
+<embed src="{{ '/assets/pdfs/myfile.pdf' | relative_url }}" type="application/pdf" width="100%" height="800px">
+
+
