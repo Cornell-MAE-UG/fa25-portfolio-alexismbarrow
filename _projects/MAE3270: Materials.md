@@ -21,7 +21,7 @@ For the class MAE 3270, Mechanics of Materials, we were tasked to solve an engin
 From this, we were to firstly use hand calculations to find a suitable design. We were to, after this, build our model in CAD, and use FEA to validate our results.
 
 Firstly, an image of the CAD with all key dimensions:
-<img src="https://alexisbarrow.github.io/fa25-portfolio-alexismbarrow/assets/images/mae3270-cad.png" alt="CAD image" width="600">
+<img src="https://alexisbarrow.github.io/fa25-portfolio-alexismbarrow/assets/images/mae3270-cad.png" alt="CAD image" width="200">
 
 
 
