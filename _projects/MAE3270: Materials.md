@@ -23,6 +23,8 @@ From this, we were to firstly use hand calculations to find a suitable design. W
 Firstly, an image of the CAD with all key dimensions:
 ![CAD img]({{ "assets/images/mae3270-cad.png" | relative_url }}){: class="profile-image" "width: 100%"}
 
+<img src="assets/images/mae3270-cad.png" alt="CAD Image" width="100%">
+
 
 Image indicating how loads and boundary conditions were applied to the FEM model:
 ![question 3]({{ "assets/images/q3.png" | relative_url }}){: class="profile-image"}
@@ -42,7 +44,7 @@ Maximum normal stress:
 The load point deflection, pictured below, is 0.2267 for the faces of the driver. They are defined as fixed supports due to the nature of the purpose of the torque wrench. Assuming it is not being twisted beyond its capacity (which would incur a frictionsl contact support), none of the faces of the driver will move. This principle causes a case in which the load is not distributed down into the driver, but rather concentrated in the end of the handle, where the load is applied. 
 
 Load point deflection: 
-<img src="./assets/images/q7.png">
+![question 7]({{ "assets/images/q7.png" | relative_url }}){: class="profile-image"}
 The load point deflection, pictured below, is 0.2267 for the faces of the driver. They are defined as fixed supports due to the nature of the purpose of the torque wrench. Assuming it is not being twisted beyond its capacity (which would incur a frictionsl contact support), none of the faces of the driver will move. This principle causes a case in which the load is not distributed down into the driver, but rather concentrated in the end of the handle, where the load is applied. 
 
 Strains at the strain gauge locations:
