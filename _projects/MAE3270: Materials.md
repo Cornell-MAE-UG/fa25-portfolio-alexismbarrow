@@ -26,7 +26,7 @@ Firstly, an image of the CAD with all key dimensions:
 
 ![Cad img](/assets/images/mae3270-cad.png){: .project-img }
 
-
+blah
 
 
 
