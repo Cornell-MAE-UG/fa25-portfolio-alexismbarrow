@@ -23,6 +23,7 @@ From this, we were to firstly use hand calculations to find a suitable design. W
 Firstly, an image of the CAD with all key dimensions:
 <img src="/assets/images/mae3270-cad.png" alt="CAD image">
 
+blah
 
 Image indicating how loads and boundary conditions were applied to the FEM model:
 <img src="https://alexisbarrow.github.io/fa25-portfolio-alexisbarrow/assets/images/q3.png" alt="q3">
