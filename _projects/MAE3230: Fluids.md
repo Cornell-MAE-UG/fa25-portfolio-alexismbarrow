@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Spaceship Design
+title: MAE 3230: Fluids
 description: Just a spaceship that I designed
 technologies: [SolidWorks, Machining]
 image: /assets/images/spaceship-design.jpg
