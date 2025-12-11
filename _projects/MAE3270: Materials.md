@@ -28,7 +28,7 @@ Firstly, an image of the CAD with all key dimensions:
 
 
 
-blah
+
 
 
 
