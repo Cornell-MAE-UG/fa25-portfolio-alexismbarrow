@@ -25,19 +25,20 @@ Firstly, an image of the CAD with all key dimensions:
 
 
 Image indicating how loads and boundary conditions were applied to the FEM model:
-<img src="https://alexisbarrow.github.io/fa25-portfolio-alexisbarrow/assets/images/q3.png" alt="q3">
-E
+![question 3]({{ "assets/images/q3.png" | relative_url }}){: class="profile-image"}
+
 Normal strain contours from FEM:
-<img src="https://alexisbarrow.github.io/fa25-portfolio-alexisbarrow/assets/images/q4.png" alt="q4">
-<img src="https://alexisbarrow.github.io/fa25-portfolio-alexisbarrow/assets/images/q4-2.png" alt="q4-2">
+![question 4]({{ "assets/images/q4.png" | relative_url }}){: class="profile-image"}
+![question 4.2]({{ "assets/images/q4-2.png" | relative_url }}){: class="profile-image"}
 
 Contour plot of maximum principal stress from FEM:
-<img src="https://alexisbarrow.github.io/fa25-portfolio-alexisbarrow/assets/images/q5-1.png" alt="q5-1">
-<img src="https://alexisbarrow.github.io/fa25-portfolio-alexisbarrow/assets/images/q5-2.png" alt="q5-2">
+![question 5]({{ "assets/images/q5-1.png" | relative_url }}){: class="profile-image"}
+![question 5-2]({{ "assets/images/q5-2.png" | relative_url }}){: class="profile-image"}
 
 Maximum normal stress:
-<img src="https://alexisbarrow.github.io/fa25-portfolio-alexisbarrow/assets/images/q6-1.png" alt="q6-1">
-<img src="https://alexisbarrow.github.io/fa25-portfolio-alexisbarrow/assets/images/q6-2.png" alt="q6-2">
+![question 6-1]({{ "assets/images/q6-1.png" | relative_url }}){: class="profile-image"}
+![question 6-2]({{ "assets/images/q6-2.png" | relative_url }}){: class="profile-image"}
+
 The load point deflection, pictured below, is 0.2267 for the faces of the driver. They are defined as fixed supports due to the nature of the purpose of the torque wrench. Assuming it is not being twisted beyond its capacity (which would incur a frictionsl contact support), none of the faces of the driver will move. This principle causes a case in which the load is not distributed down into the driver, but rather concentrated in the end of the handle, where the load is applied. 
 
 Load point deflection: 
