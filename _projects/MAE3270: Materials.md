@@ -36,7 +36,7 @@ Firstly, an image of the CAD with all key dimensions:
 
 Image indicating how loads and boundary conditions were applied to the FEM model:
 
-![question 3]({{ "assets/images/q3.png" | relative_url }}){: class="profile-image"}
+![question 3]({{ "assets/images/q3.png" | relative_url }}){: .project-img}
 
 
 
@@ -45,8 +45,8 @@ Image indicating how loads and boundary conditions were applied to the FEM model
 
 
 Normal strain contours from FEM:
-![question 4]({{ "assets/images/q4.png" | relative_url }}){: class="profile-image"}
-![question 4.2]({{ "assets/images/q4-2.png" | relative_url }}){: class="profile-image"}
+![question 4]({{ "assets/images/q4.png" | relative_url }}){: .project-img}
+![question 4.2]({{ "assets/images/q4-2.png" | relative_url }}){: .project-img}
 
 
 
@@ -58,7 +58,7 @@ Normal strain contours from FEM:
 Contour plot of maximum principal stress from FEM:
 
 ![question 5]({{ "assets/images/q5-1.png" | relative_url }}){: class="profile-image"}
-![question 5-2]({{ "assets/images/q5-2.png" | relative_url }}){: class="profile-image"}
+![question 5-2]({{ "assets/images/q5-2.png" | relative_url }}){: .project-img}
 
 
 
@@ -67,8 +67,8 @@ Contour plot of maximum principal stress from FEM:
 
 Maximum normal stress:
 
-![question 6-1]({{ "assets/images/q6-1.png" | relative_url }}){: class="profile-image"}
-![question 6-2]({{ "assets/images/q6-2.png" | relative_url }}){: class="profile-image"}
+![question 6-1]({{ "assets/images/q6-1.png" | relative_url }}){: .project-img"}
+![question 6-2]({{ "assets/images/q6-2.png" | relative_url }}){: .project-img}
 
 
 
@@ -83,7 +83,7 @@ The load point deflection, pictured below, is 0.2267 for the faces of the driver
 
 
 Load point deflection: 
-![question 6-3]({{ "assets/images/q7.png" | relative_url }}){: class="profile-image"}
+![question 6-3]({{ "assets/images/q7.png" | relative_url }}){: .project-img}
 The load point deflection, pictured below, is 0.2267 for the faces of the driver. They are defined as fixed supports due to the nature of the purpose of the torque wrench. Assuming it is not being twisted beyond its capacity (which would incur a frictionsl contact support), none of the faces of the driver will move. This principle causes a case in which the load is not distributed down into the driver, but rather concentrated in the end of the handle, where the load is applied. 
 
 
@@ -92,7 +92,7 @@ The load point deflection, pictured below, is 0.2267 for the faces of the driver
 
 
 Strains at the strain gauge locations:
-![question 6-4]({{ "assets/images/q6-4.png" | relative_url }}){: class="profile-image"}
+![question 6-4]({{ "assets/images/q6-4.png" | relative_url }}){: .project-img}
 The strain gauges are located approximately 1 inch from the center of the driver along the x-axis. The maximum strain measured is 1.9342e-003, and it occurs partway up the driver.
 
 
