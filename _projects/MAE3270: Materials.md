@@ -24,7 +24,9 @@ Firstly, an image of the CAD with all key dimensions:
 
 ![CAD img]({{ "assets/images/mae3270-cad.png" | relative_url }}){: class="profile-image" "width: 100%"}
 
-![Cad img](/assets/images/mae3270-cad.png){: .project-img }
+![CAD img]({{ "assets/images/mae3270-cad.png" | relative_url }}){: .project-img }
+
+
 
 blah
 
