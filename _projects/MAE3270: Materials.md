@@ -1,9 +1,9 @@
 ---
 layout: project
-title: MAE 3270: Mechanics of Materials
+title: MAE 3270- Mechanics of Materials
 description: FEA + CAD modeling Final Project
 technologies: [Autodesk Fusion, ANSYS]
-image: ![CAD img]({{ "assets/images/mae3270-cad.png" | relative_url }}){: class="profile-image"}
+image: assets/images/mae3270-cad.png
 ---
 
 
