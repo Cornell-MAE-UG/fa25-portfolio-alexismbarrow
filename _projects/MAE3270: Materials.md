@@ -30,8 +30,12 @@ Firstly, an image of the CAD with all key dimensions:
 
 ---
 
+Material and relevant mechanical properties, including the output code from the hand-calcs:
+Subcategory: Alpha/Beta Titanium Alloy; Metal; Nonferrous Metal; Titanium Alloy
+![Code img]({{ "assets/images/OutputCode.png" | relative_url }}){: .project-img }
 
 
+___
 
 Image indicating how loads and boundary conditions were applied to the FEM model:
 
