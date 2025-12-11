@@ -69,7 +69,7 @@ Contour plot of maximum principal stress from FEM:
 
 
 Maximum normal stress:
-According to the FEq6 calculations, the maximum normal stress was 90010 psi, as pictured below. It occurs at the interface between the fileted portion of the driver and the handle body. The reasoning behind this specific location, instead of any of the other 3 corners of the fileted part of the driver, is due to the direction of the applied load- it is counterclockwise, meaning this counteractive torque from what the driver is engaged with.
+According to the FEA calculations, the maximum normal stress was 90010 psi, as pictured below. It occurs at the interface between the fileted portion of the driver and the handle body. The reasoning behind this specific location, instead of any of the other 3 corners of the fileted part of the driver, is due to the direction of the applied load- it is counterclockwise, meaning this counteractive torque from what the driver is engaged with.
 
 ![question 6-1]({{ "assets/images/q6-1.png" | relative_url }}){: .project-img"}
 ![question 6-2]({{ "assets/images/q6-2.png" | relative_url }}){: .project-img}
