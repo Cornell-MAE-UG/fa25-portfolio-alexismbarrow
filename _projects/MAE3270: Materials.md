@@ -103,5 +103,5 @@ Torque wrench sensitivity in mV/V using strains from the FEM analysis:
 
 
 Strain Gauge Selected: SGD-2/350-LY11 Linear Strain Gauge from DwyerOmega
-![StrainGauge Pic]({{ "assets/images/StrainGaugePic.png" | relative_url }}){: .project-img}
+![StrainGauge Pic]({{ "assets/images/StrainGaugePic.png" | relative_url }}){: class="profile-image"}
 Dimensions: 7.6mm (0.3in) x 5.8mm (0.23in)
