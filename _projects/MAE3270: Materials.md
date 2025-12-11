@@ -1,25 +1,54 @@
 ---
 layout: project
-title: Radio CAD Rendering
-description: Advanced CAD Project
-technologies: [Autodesk Fusion]
-image: /assets/images/radio-machine-cad.jpg
+title: MAE 3270: Mechanics of Materials
+description: FEA + CAD modeling Final Project
+technologies: [Autodesk Fusion,ANSYS]
+image: /assets/images/CAD.png
 ---
 
-For a class, we were asked to CAD a complex object. This design was...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. 
+For the class MAE 3270, Mechanics of Materials, we were tasked to solve an engineering problem: building a torque wrench that could undergo a certain set of conditions, which were as follows:
 
-Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+- Withstand a torque of 600 in-lbf for 10^6 cycles. 
+- At least 1 mV/V output at the rated torque.
+- A safety factor of at least 4 for yield or brittle failure.
+- A safety facor of at least 2 for crack growth from an assumed crack depth of 0.04 in.
+- A fatigue stress safety factor of at least 1.5
+- Be made from a steel, aluminum, or titanum alloy.
+- Have a driver with dimensions 0.375in x 0.375in x 0.5in
 
-![Shaded rendering of earlier version]({{ "/assets/images/radio-machine.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
+From this, we were to firstly use hand calculations to find a suitable design. We were to, after this, build our model in CAD, and use FEA to validate our results.
 
-Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+Firstly, an image of the CAD with all key dimensions:
+<img src="./assets/images.CAD.png">
 
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
+Image indicating how loads and boundary conditions were applied to the FEM model:
+<img src="./assets/images.q3.png">
+E
+Normal strain contours from FEM:
+<img src="./assets/images.q4.png">
+<img src="./assets/images.q4-2.png">
 
-I was inspired by this old radio when I made this rendering:
+Contour plot of maximum principal stress from FEM:
+<img src="./assets/images.q5-1.png">
+<img src="./assets/images.q5-2.png">
 
-![Photo of old radio]({{ "/assets/images/old-radio.jpg" | relative_url }}){: .inline-image-l}
+Maximum normal stress:
+<img src="./assets/images.q6-1.png">
+<img src="./assets/images.q6-2.png">
+The load point deflection, pictured below, is 0.2267 for the faces of the driver. They are defined as fixed supports due to the nature of the purpose of the torque wrench. Assuming it is not being twisted beyond its capacity (which would incur a frictionsl contact support), none of the faces of the driver will move. This principle causes a case in which the load is not distributed down into the driver, but rather concentrated in the end of the handle, where the load is applied. 
 
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
+Load point deflection: 
+<img src="./assets/images.q7.png">
+The load point deflection, pictured below, is 0.2267 for the faces of the driver. They are defined as fixed supports due to the nature of the purpose of the torque wrench. Assuming it is not being twisted beyond its capacity (which would incur a frictionsl contact support), none of the faces of the driver will move. This principle causes a case in which the load is not distributed down into the driver, but rather concentrated in the end of the handle, where the load is applied. 
 
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
+Strains at the strain gauge locations:
+<img src="./assets/images.q6-4.png">
+The strain gauges are located approximately 1 inch from the center of the driver along the x-axis. The maximum strain measured is 1.9342e-003, and it occurs partway up the driver.
+
+Torque wrench sensitivity in mV/V using strains from the FEM analysis:
+<img src="./assets/images.q7-2.png">
+<img src="./assets/images.q7analysis.png">
+
+Strain Gauge Selected: SGD-2/350-LY11 Linear Strain Gauge from DwyerOmega
+<img src="./assets/images.StrainGaugePic.png">
+Dimensions: 7.6mm (0.3in) x 5.8mm (0.23in)
