@@ -23,9 +23,6 @@ From this, we were to firstly use hand calculations to find a suitable design. W
 Firstly, an image of the CAD with all key dimensions:
 ![CAD img]({{ "assets/images/mae3270-cad.png" | relative_url }}){: class="profile-image" "width: 100%"}
 
-<img src="/assets/images/mae3270-cad.png" alt="CAD Image" width="100%">
-
-belly
 
 Image indicating how loads and boundary conditions were applied to the FEM model:
 ![question 3]({{ "assets/images/q3.png" | relative_url }}){: class="profile-image"}
