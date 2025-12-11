@@ -29,7 +29,7 @@ Firstly, an image of the CAD with all key dimensions:
 
 
 
-
+---
 
 
 
@@ -40,7 +40,7 @@ Image indicating how loads and boundary conditions were applied to the FEM model
 
 
 
-
+---
 
 
 
@@ -51,7 +51,7 @@ Normal strain contours from FEM:
 
 
 
-
+---
 
 
 
@@ -62,7 +62,7 @@ Contour plot of maximum principal stress from FEM:
 
 
 
-
+---
 
 
 Maximum normal stress:
@@ -73,13 +73,13 @@ Maximum normal stress:
 
 
 
-
+---
 
 
 The load point deflection, pictured below, is 0.2267 for the faces of the driver. They are defined as fixed supports due to the nature of the purpose of the torque wrench. Assuming it is not being twisted beyond its capacity (which would incur a frictionsl contact support), none of the faces of the driver will move. This principle causes a case in which the load is not distributed down into the driver, but rather concentrated in the end of the handle, where the load is applied. 
 
 
-
+---
 
 
 Load point deflection: 
@@ -87,7 +87,7 @@ Load point deflection:
 The load point deflection, pictured below, is 0.2267 for the faces of the driver. They are defined as fixed supports due to the nature of the purpose of the torque wrench. Assuming it is not being twisted beyond its capacity (which would incur a frictionsl contact support), none of the faces of the driver will move. This principle causes a case in which the load is not distributed down into the driver, but rather concentrated in the end of the handle, where the load is applied. 
 
 
-
+---
 
 
 
@@ -96,26 +96,15 @@ Strains at the strain gauge locations:
 The strain gauges are located approximately 1 inch from the center of the driver along the x-axis. The maximum strain measured is 1.9342e-003, and it occurs partway up the driver.
 
 
-
+---
 
 
 Torque wrench sensitivity in mV/V using strains from the FEM analysis:
-
-
-
-
-
 ![question 7-2]({{ "assets/images/q7-2.png" | relative_url }}){: class="profile-image"}
-
-
-
-
-
-
 ![question 7analysis]({{ "assets/images/q7analysis.png" | relative_url }}){: class="profile-image"}
 
 
-
+---
 
 
 
