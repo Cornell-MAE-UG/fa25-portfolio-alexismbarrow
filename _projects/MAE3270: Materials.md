@@ -3,7 +3,7 @@ layout: project
 title: MAE 3270: Mechanics of Materials
 description: FEA + CAD modeling Final Project
 technologies: [Autodesk Fusion,ANSYS]
-image: /assets/images/CAD.png
+image: /assets/images/CAD
 ---
 
 For the class MAE 3270, Mechanics of Materials, we were tasked to solve an engineering problem: building a torque wrench that could undergo a certain set of conditions, which were as follows:
@@ -19,7 +19,7 @@ For the class MAE 3270, Mechanics of Materials, we were tasked to solve an engin
 From this, we were to firstly use hand calculations to find a suitable design. We were to, after this, build our model in CAD, and use FEA to validate our results.
 
 Firstly, an image of the CAD with all key dimensions:
-<img src="/assets/images/CAD.png">
+<img src="/assets/images/CAD">
 
 Image indicating how loads and boundary conditions were applied to the FEM model:
 <img src="/assets/images/q3.png">
