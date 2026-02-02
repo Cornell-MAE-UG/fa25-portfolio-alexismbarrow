@@ -1,7 +1,7 @@
 ---
 layout: default
 title: <Alexis Barrow> - Curriculum Vitae
-permalink: /cv/
+permalink: /workexperience/
 ---
 ## Curriculum Vitae
 
