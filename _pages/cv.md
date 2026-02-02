@@ -3,57 +3,50 @@ layout: default
 title: <Alexis Barrow> - Curriculum Vitae
 permalink: /cv/
 ---
-## Curriculum Vitae
+
 
 [Download my CV]({{ "/assets/CV.pdf" | relative_url }}) in PDF format.
 
 
-**Email:** [amb662.edu](mailto:amb662@cornell.edu) | | | **Phone:** +201 540 6662
-
----
-
-#### Objective
-Aspiring engineering student with a strong foundation in.... Passionate about ... and eager to apply my knowledge in real-world applications.
+**Email:** [amb662@cornell.edu](mailto:amb662@cornell.edu) | | | **Phone:** +201 540 6662
 
 ---
 
 #### Education
 - **Cornell University**  
-  *Bachelor of Science in Mechanical and Aerospace Engineering*  
-  GPA: 3.8/4.0 | Graduation: Month, Year
+  *Bachelor of Science in Mechanical Engineering, Aerospace Engineering Minor *  
+  GPA: 3.5/4.0 | Graduation: May, 2027
 
-- **[High School Name]**  
-  *High School Diploma*  
-  Graduation: [Month, Year]
+- **Ramsey High School**  
+  Graduation: [June, 2023]
 
 ---
 
 #### Skills
-- **Software:** Autodesk Fusion 360, SolidWorks, ANSYS  
+- **Software:** Autodesk Fusion 360, Autodesk Inventor, ANSYS  
 - **Programming:** Python, MATLAB  
-- **Tools:** 3D Printing, Laser Cutting  
+- **Tools:** Mill, Lathe, Trak Lathe
 
 ---
 
-#### Projects
-- **[Project Title]**:  
-  *[Short Description]*  
-  - Key Achievement 1  
-  - Key Achievement 2  
 
-- **[Project Title]**:  
-  *[Short Description]*  
-  - Key Achievement 1  
-  - Key Achievement 2  
-
----
 
 #### Work Experience
-- **[Company Name] - Intern**  
-  [Month, Year] - [Month, Year]  
-  - Responsibility 1  
-  - Responsibility 2  
-
+- **[General Atomics Aeronautical Systems] - Reliability, Availability, and Maintainability/ System Safety Engineering Intern**  
+  [June, 2025] - [August, 2025]  
+  - Led a project independently for Mean Time To Repair calculations for a new Unmanned Aerial Vehicle  model, providing valuable data that assisted in the re-design of the model itself considering the time it would take to repair individual parts
+  - Worked on several projects that included Mean Time Between Failure and Mean Time To Repair calculations for different models of Unmanned Aerial Vehicles, both for internal efficiency analysis and for client quarterly reports
+  - Worked with Excel spreadsheets to produce several quarterly reports that included both financial and analytical data concerning aircraft failure, including creating a top-ten most failed line replaceable unit table that involved a variety of failure metrics and graph generation for the government of France and the United States Air Force
+  - Performed Discrepancy-ID classification, analyzing descriptive statistics involving specific failure instances and classifying each failure for the United States Air Force, assisting in their analysis of mission success
+  - Designed code in Excel that automated a recurring issue involving the elimination of repeating values, increasing the efficiency of the department by reducing 10 hours of manual labor per quarter
+ 
+- **[Cornell Electric Vehicles Project Team] - Mechanical Subteam/ Drivetrain Subsystem Member**  
+  [October, 2023] - Present
+  - Led a project independently for Mean Time To Repair calculations for a new Unmanned Aerial Vehicle  model, providing valuable data that assisted in the re-design of the model itself considering the time it would take to repair individual parts
+  - Worked on several projects that included Mean Time Between Failure and Mean Time To Repair calculations for different models of Unmanned Aerial Vehicles, both for internal efficiency analysis and for client quarterly reports
+  - Worked with Excel spreadsheets to produce several quarterly reports that included both financial and analytical data concerning aircraft failure, including creating a top-ten most failed line replaceable unit table that involved a variety of failure metrics and graph generation for the government of France and the United States Air Force
+  - Performed Discrepancy-ID classification, analyzing descriptive statistics involving specific failure instances and classifying each failure for the United States Air Force, assisting in their analysis of mission success
+  - Designed code in Excel that automated a recurring issue involving the elimination of repeating values, increasing the efficiency of the department by reducing 10 hours of manual labor per quarter
 ---
 
 #### Achievements & Certifications
