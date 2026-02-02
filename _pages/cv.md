@@ -24,7 +24,7 @@ permalink: /cv/
 
 #### Skills
 - **Software:** Autodesk Fusion 360, Autodesk Inventor, ANSYS  
-- **Programming:** Python, MATLAB  
+- **Programming:** Python, MATLAB, Excel
 - **Tools:** Mill, Lathe, Trak Lathe
 
 ---
