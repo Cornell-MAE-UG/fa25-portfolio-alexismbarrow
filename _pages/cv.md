@@ -5,7 +5,7 @@ permalink: /cv/
 ---
 
 
-[Download my CV]({{ "/assets/ResumeAlexisMBarrow.pdf" | relative_url }}) in PDF format.
+[Download my CV]({{ "/assets/CV.pdf" | relative_url }}) in PDF format.
 
 
 **Email:** [amb662@cornell.edu](mailto:amb662@cornell.edu) | | | **Phone:** +201 540 6662
