@@ -1,74 +1,19 @@
 ---
 layout: default
-title: <Alexis Barrow> - Curriculum Vitae
+title: Work Experience
 permalink: /workexperience/
 ---
-## Curriculum Vitae
+picms
 
-[Download my CV]({{ "/assets/CV.pdf" | relative_url }}) in PDF format.
-
-
-**Email:** [amb662.edu](mailto:amb662@cornell.edu) | | | **Phone:** +201 540 6662
-
----
-
-#### Objective
-Aspiring engineering student with a strong foundation in.... Passionate about ... and eager to apply my knowledge in real-world applications.
-
----
-
-#### Education
-- **Cornell University**  
-  *Bachelor of Science in Mechanical and Aerospace Engineering*  
-  GPA: 3.8/4.0 | Graduation: Month, Year
-
-- **[High School Name]**  
-  *High School Diploma*  
-  Graduation: [Month, Year]
-
----
-
-#### Skills
-- **Software:** Autodesk Fusion 360, SolidWorks, ANSYS  
-- **Programming:** Python, MATLAB  
-- **Tools:** 3D Printing, Laser Cutting  
-
----
-
-#### Projects
-- **[Project Title]**:  
-  *[Short Description]*  
-  - Key Achievement 1  
-  - Key Achievement 2  
-
-- **[Project Title]**:  
-  *[Short Description]*  
-  - Key Achievement 1  
-  - Key Achievement 2  
-
----
-
-#### Work Experience
-- **[Company Name] - Intern**  
-  [Month, Year] - [Month, Year]  
-  - Responsibility 1  
-  - Responsibility 2  
-
----
-
-#### Achievements & Certifications
-- [Certification Name], [Issuing Organization], [Year]  
-- [Achievement Name], [Competition/Event], [Year]  
-
----
-
-#### Extracurricular Activities
-- Member of [Club/Organization Name]  
-- Volunteer for [Event/Organization Name]  
-
----
-
-#### References
-Available upon request.
-
----
+<div class="gallery-container">
+<div class="project-gallery">
+    {% for project in site.projects %}
+      <div class="gallery-item">
+       <a href="{{ '/workexperience/cev/' | relative_url }}">
+          <img src="{{ '/assets/images/cev-thumb.png' | relative_url }}" alt="CEV" />
+          <p>CEV</p>
+        </a>
+      </div>
+    {% endfor %}
+</div>
+</div>
