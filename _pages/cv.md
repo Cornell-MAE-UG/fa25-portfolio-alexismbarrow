@@ -8,6 +8,8 @@ permalink: /cv/
 [Download my CV]({{ "/assets/ResumeAlexisMBarrow.pdf" | relative_url }}) in PDF format.
 
 
+[Link to Resume](https://docs.google.com/document/d/1V-1EImHJ-lS4SUqA00upQpf_k8FIc_NpR36qryXli1o/edit?usp=sharing)
+
 **Email:** [amb662@cornell.edu](mailto:amb662@cornell.edu) | | | **Phone:** +201 540 6662
 
 ---

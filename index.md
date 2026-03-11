@@ -13,3 +13,7 @@ My name is Alexis Barrow, and I am currently a junior studying Mechanical Engine
 
 
 Take a look at <a href="{{ "/projects/" | relative_url }}">my projects/ work experience</a> and <a href="{{ "/cv/" | relative_url }}">CV</a>.
+
+
+In my free time, I enjoy running, going to the gym, hiking, kayaking, and embroidery! I also love to paint and read.
+
