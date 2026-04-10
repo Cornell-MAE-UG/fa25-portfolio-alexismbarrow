@@ -21,4 +21,11 @@ In addition to analytical work, I operate machining equipment such as lathes and
 
 ![machining pic]({{ "assets/images/MachiningPic.png" | relative_url }}){: .project-img}
 
+Here is the Technical Report for 2025 for the Drivetrain Subsystem:
+[TechReport.pdf]({{ "/assets/TechReport.pdf" | relative_url }})
+
+
+
+
+
 
